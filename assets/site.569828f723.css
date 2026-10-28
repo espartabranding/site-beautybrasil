@@ -350,7 +350,7 @@ svg.ic{width:16px;height:16px;flex:none}
 .pn-kpis a:hover{background:var(--layer-hover)}
 .pn-kpis b{font:300 38px/1.05 var(--display);color:var(--blue);font-variant-numeric:tabular-nums;letter-spacing:-.5px}
 .pn-kpis span{font-size:13.5px;line-height:1.4;color:var(--text-2)}
-.pn-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--gap)}
+.pn-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--gap);grid-auto-flow:row dense}  /* dense: cartão estreito não deixa buraco ao lado do largo */
 .pn-card{background:var(--card);border:1px solid var(--border);padding:24px;display:flex;flex-direction:column;gap:14px;min-width:0}
 .pn-card.pn-2{grid-column:span 2}
 .pn-h{border-bottom:2px solid var(--blue);padding-bottom:10px;display:flex;flex-direction:column;gap:2px}
