@@ -1538,4 +1538,9 @@ body{font-family:var(--font);font-weight:400;letter-spacing:.005em}
   .atv-filtro button{flex:none}
   .pn-card{padding:20px}
   .sec{padding-block:56px}
+  /* editorias no celular: a principal e duas laterais; o rodapé "Na rede" fica na página da editoria */
+  .edfoot{display:none}
+  .edside .hcard:nth-of-type(n+3){display:none}
+  .edblock{padding-block:44px}
+  .eh .chips{display:none}
 }
