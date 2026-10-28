@@ -1276,6 +1276,18 @@ body{font-family:var(--font);font-weight:400;letter-spacing:.005em}
 .cad .btn{align-self:flex-start}
 .cad-msg{min-height:1.4em;font-weight:600}
 
+.pn-banner{min-height:0;aspect-ratio:21/6;align-self:auto}
+.pn-banner span{font-size:16px;left:22px;bottom:18px}
+.pn-reg3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;align-items:stretch}
+.pn-mini{background:var(--tint);border:1px solid var(--border);border-radius:16px;padding:18px;display:flex;flex-direction:column;gap:10px}
+.pn-mini .pn-ic{width:36px;height:36px}.pn-mini .pn-ic svg{width:18px;height:18px}
+.pn-mini .pn-k{margin:0}
+.pn-mini .pn-col{margin-top:auto}
+.pn-normas4{grid-template-columns:repeat(4,minmax(0,1fr));align-items:stretch}
+.pn-normas4 li.pn-norma{height:100%;box-sizing:border-box}
+@media (max-width:1100px){.pn-reg3{grid-template-columns:minmax(0,1fr)}.pn-normas4{grid-template-columns:repeat(2,minmax(0,1fr))}.pn-banner{aspect-ratio:16/7}}
+@media (max-width:672px){.pn-normas4{grid-template-columns:minmax(0,1fr)}}
+
 /* painel aberto: faixas largas com foto, gráficos e números */
 .pn-reg,.pn-ce,.pn-cm{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.25fr) minmax(0,1fr);gap:28px;align-items:start}
 .pn-foto{position:relative;border-radius:16px;overflow:hidden;align-self:stretch;min-height:340px;width:100%}
