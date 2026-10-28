@@ -1,0 +1,82 @@
+# Beauty Brasil
+
+> Inovações e soluções em beleza no Brasil: pele, cabelo, olhos e maquiagem, unhas, perfumaria, corpo e higiene, saúde e bem-estar, estética, ingredientes e beauty tech. Notícias com fonte, resumidas e analisadas para quem cria, vende e decide no setor, com investimentos, regulação e guias.
+
+Site: https://www.beautybrasil.com.br/ · Idioma: português do Brasil · Atualizado em 26/10/2026.
+Cada notícia é um resumo próprio do Beauty Brasil, com links para as fontes originais.
+
+## Editorias
+- [#Pele · Pele e skincare](https://www.beautybrasil.com.br/pele/): Skincare, dermocosméticos, fotoproteção, acne, melasma e antienvelhecimento: os ativos, os produtos e as soluções novas para a pele brasileira.
+- [#Cabelo · Cabelo e couro cabeludo](https://www.beautybrasil.com.br/cabelo/): Tratamento, coloração, cachos e crespos, couro cabeludo, queda e calvície: as soluções capilares que o Brasil desenvolve e consome.
+- [#Maquiagem · Olhos e maquiagem](https://www.beautybrasil.com.br/olhos-e-maquiagem/): Cílios, sobrancelhas, olheiras, olhos, boca e rosto: os lançamentos e as tecnologias de maquiagem no Brasil.
+- [#Unhas · Unhas](https://www.beautybrasil.com.br/unhas/): Esmaltes, tratamentos, alongamento e nail art: o mercado de unhas no Brasil, um dos maiores do mundo.
+- [#Perfumaria · Perfumaria e fragrâncias](https://www.beautybrasil.com.br/perfumaria/): Perfumes, colônias e fragrâncias: a perfumaria brasileira, os lançamentos, a perfumaria de nicho e as casas de fragrância.
+- [#Corpo · Corpo e higiene pessoal](https://www.beautybrasil.com.br/corpo-e-higiene/): Banho, hidratação do corpo, desodorantes, depilação, higiene íntima e oral: os produtos de todo dia e o que eles ganham de novo.
+- [#Saúde · Saúde e bem-estar](https://www.beautybrasil.com.br/saude-e-bem-estar/): Nutricosméticos, menopausa, sono, longevidade e beleza de dentro para fora: onde a beleza encontra a saúde.
+- [#Estética · Estética e procedimentos](https://www.beautybrasil.com.br/estetica/): Clínicas, injetáveis, laser, aparelhos, salões e barbearias: os procedimentos e os serviços de beleza, e quem os oferece.
+- [#Ingredientes · Ingredientes e ciência](https://www.beautybrasil.com.br/ingredientes/): Ativos, biotecnologia, biodiversidade brasileira, formulação, embalagens e pesquisa: a ciência por trás das soluções de beleza.
+- [#BeautyTech · Beauty tech](https://www.beautybrasil.com.br/beauty-tech/): Inteligência artificial, diagnóstico de pele, personalização, aplicativos, aparelhos e novas formas de comprar beleza.
+- [#Mercado · Mercado e negócios](https://www.beautybrasil.com.br/#mercado): Resultados, investimentos, aquisições, varejo, executivos e regras da Anvisa: as notícias de negócio do setor de beleza que não cabem numa categoria.
+
+## Notícias
+- [Perfumes árabes ganham mercado, e Boticário faz investimento recorde](https://www.beautybrasil.com.br/noticias/perfumes-arabes-ganham-mercado-e-boticario-faz-investimento-recorde/): Notícia publicada por UOL Economia em 25 out 2026.
+- [Granado lança perfume em edição limitada de 10 mil unidades, coleção de Natal inspirada no Brasil](https://www.beautybrasil.com.br/noticias/granado-lanca-perfume-em-edicao-limitada-de-10-mil-unidades-colecao-de-natal-ins/): Notícia publicada por Portal 6 em 24 out 2026.
+- [Nissei amplia portfólio de beleza com marca sul-coreana de skincare](https://www.beautybrasil.com.br/noticias/nissei-amplia-portfolio-de-beleza-com-marca-sul-coreana-de-skincare/): Notícia publicada por Mercado & Consumo em 24 out 2026.
+- [L’Oréal Paris® amplia a representatividade na proteção solar facial com novas cores de Solar Expertise Efeito Make-Up](https://www.beautybrasil.com.br/noticias/loreal-paris-amplia-a-representatividade-na-protecao-solar-facial-com-novas-core/): Notícia publicada por 2A+ Cosmética em 24 out 2026.
+- [Colorama lança seis cores de esmalte com os tons queridinhos das brasileiras](https://www.beautybrasil.com.br/noticias/colorama-lanca-seis-cores-de-esmalte-com-os-tons-queridinhos-das-brasileiras/): Notícia publicada por Cosmetic Innovation em 23 out 2026.
+- [Maquiadora viraliza com desabafo sobre noiva que contratou maquiagem social e queria benefícios de casamento](https://www.beautybrasil.com.br/noticias/maquiadora-viraliza-com-desabafo-sobre-noiva-que-contratou-maquiagem-social-e-qu/): Notícia publicada por Pequenas Empresas & Grandes Negócios em 23 out 2026.
+- [Natura Chronos Derma mapeia 17 bilhões de códigos de DNA da pele brasileira](https://www.beautybrasil.com.br/noticias/natura-chronos-derma-mapeia-17-bilhoes-de-codigos-de-dna-da-pele-brasileira/): Notícia publicada por Cosmetic Innovation em 23 out 2026.
+- [Avon se une a Maria Cândida em série documental sobre menopausa](https://www.beautybrasil.com.br/noticias/avon-se-une-a-maria-candida-em-serie-documental-sobre-menopausa/): Notícia publicada por Cosmetic Innovation em 23 out 2026.
+- [Anvisa cria código de assunto para recursos administrativos de produtos cosméticos isentos de registro](https://www.beautybrasil.com.br/noticias/anvisa-cria-codigo-de-assunto-para-recursos-administrativos-de-produtos-cosmetic/): Notícia publicada por ABIHPEC — Associação Brasileira da Indústria de Higiene Pessoal, Perfumaria e Cosméticos em 23 out 2026.
+- [cap&care lança a goma Beauty e desperta expectativa feminina](https://www.beautybrasil.com.br/noticias/cap-care-lanca-a-goma-beauty-e-desperta-expectativa-feminina/): Notícia publicada por Pequenas Empresas & Grandes Negócios em 23 out 2026.
+- [Natura testa ingrediente de andiroba para combater envelhecimento da pele](https://www.beautybrasil.com.br/noticias/natura-testa-ingrediente-de-andiroba-para-combater-envelhecimento-da-pele/): Notícia publicada por Veja — Economia em 23 out 2026.
+- [Época Cosméticos lança nova identidade visual e anuncia outlet em São Paulo](https://www.beautybrasil.com.br/noticias/epoca-cosmeticos-lanca-nova-identidade-visual-e-anuncia-outlet-em-sao-paulo/): Notícia publicada por Beauty Fair em 23 out 2026.
+- [Grupo Boticário aposta em nova categoria de beleza e mira expansão de 175% até 2028](https://www.beautybrasil.com.br/noticias/grupo-boticario-aposta-em-nova-categoria-de-beleza-e-mira-expansao-de-175-ate-20/): Notícia publicada por Times Brasil (CNBC) - Wellness / Beleza S.A.
+- [Sede da RD Saúde vira ‘playground de beleza’ para apresentar tendências](https://www.beautybrasil.com.br/noticias/sede-da-rd-saude-vira-playground-de-beleza-para-apresentar-tendencias/): Notícia publicada por Cosmetic Innovation em 23 out 2026.
+- [O Boticário, Vult e Quem Disse, Berenice? reúnem sugestões de maquiagem e cabelos](https://www.beautybrasil.com.br/noticias/o-boticario-vult-e-quem-disse-berenice-reunem-sugestoes-de-maquiagem-e-cabelos/): Notícia publicada por 2A+ Cosmética em 23 out 2026.
+- [Vendas de remédios para crescimento capilar dobraram nos últimos três anos](https://www.beautybrasil.com.br/noticias/vendas-de-remedios-para-crescimento-capilar-dobraram-nos-ultimos-tres-anos/): Notícia publicada por Abradilan — Associação Brasileira do Atacado Farmacêutico em 22 out 2026.
+- [Grupo Boticário lança tecnologia de diagnóstico por Inteligência Artificial para peles e cabelos](https://www.beautybrasil.com.br/noticias/grupo-boticario-lanca-tecnologia-de-diagnostico-por-inteligencia-artificial-para/): Notícia publicada por 2A+ Cosmética em 22 out 2026.
+- [Granado lança fragrância Buona Fortuna em edição limitada para o fim de ano](https://www.beautybrasil.com.br/noticias/granado-lanca-fragrancia-buona-fortuna-em-edicao-limitada-para-o-fim-de-ano/): Notícia publicada por Cosmetic Innovation em 21 out 2026.
+- [Brasil leva seis empresas de ingredientes à in-cosmetics Asia 2026](https://www.beautybrasil.com.br/noticias/brasil-leva-seis-empresas-de-ingredientes-a-in-cosmetics-asia-2026/): Notícia publicada por Brazil Beauty News em 21 out 2026.
+- [Com primeira pele 3D menopausada do mundo, Avon desenvolve Renew MenoPro](https://www.beautybrasil.com.br/noticias/com-primeira-pele-3d-menopausada-do-mundo-avon-desenvolve-renew-menopro/): Notícia publicada por Brazil Beauty News em 20 out 2026.
+
+## Repositório de notícias
+- [Arquivo completo, mês a mês](https://www.beautybrasil.com.br/arquivo/): todas as notícias do mercado de beleza no Brasil coletadas, com fonte e link para o original.
+
+## Páginas de tema (atualizadas automaticamente)
+- [Regulação da beleza no Brasil](https://www.beautybrasil.com.br/regulacao/): normas da Anvisa, tributos e marcos legais do setor, com situação e fonte oficial.
+- [Investimentos e M&A em beleza](https://www.beautybrasil.com.br/investimentos/): rodadas de marcas e beauty techs, fusões e aquisições, com valores, investidores e fonte.
+- [Grandes grupos de beleza](https://www.beautybrasil.com.br/grupos/): as notícias de Natura &Co, Grupo Boticário, L'Oréal, Unilever, P&G e outros grupos no Brasil.
+- [Cases de negócio](https://www.beautybrasil.com.br/cases/): estratégias concretas de empresas do setor, com o resultado divulgado.
+- [Executivos](https://www.beautybrasil.com.br/executivos/): quem assumiu e quem deixou cargos em empresas de beleza.
+- [Indicadores do setor](https://www.beautybrasil.com.br/indicadores/): mercado, exportações e consumo, cada número com fonte e período.
+- [Agenda de feiras e eventos](https://www.beautybrasil.com.br/agenda/): as feiras e os eventos do setor de beleza no Brasil.
+- [Glossário da beleza](https://www.beautybrasil.com.br/glossario/): termos do setor explicados para executivos, um por página.
+- [Briefing do dia](https://www.beautybrasil.com.br/briefing/): os destaques do dia com o que muda para a empresa.
+
+## Texto completo
+- [llms-full.txt](https://www.beautybrasil.com.br/llms-full.txt): as notícias recentes na íntegra (resumo, análise e fontes) e todos os indicadores, em texto simples.
+
+## Perguntas frequentes
+### O que é o Beauty Brasil?
+O Beauty Brasil é o repositório executivo do mercado de beleza no Brasil: higiene pessoal, perfumaria e cosméticos (HPPC), beleza profissional e o varejo que vende tudo isso. Reúne num só lugar as notícias do setor publicadas pela imprensa especializada e de negócios, por associações, reguladores e empresas, sempre com link para o original, e destaca as mais relevantes para quem decide, com resumo e análise próprios, organizadas por categoria: pele, cabelo, olhos e maquiagem, unhas, perfumaria, corpo e higiene, saúde e bem-estar, estética, ingredientes e beauty tech.
+
+### Que assuntos o Beauty Brasil cobre?
+Inovações e soluções em beleza no Brasil: produtos, ingredientes, tecnologias, tratamentos e serviços novos para pele, cabelo, olhos e maquiagem, unhas, perfumaria, corpo e higiene, saúde e bem-estar e estética, além da ciência dos ingredientes e das beauty techs. As notícias de negócio do setor (resultados, investimentos, varejo e regras da Anvisa) ficam em Mercado. Notícia internacional entra quando afeta o Brasil.
+
+### O que fica de fora do portal?
+Dicas de beleza ao consumidor, resenhas de produto, celebridades e publieditoriais. O Beauty Brasil é escrito para executivos e profissionais do setor, no tom de um jornal econômico.
+
+### De onde vêm as notícias?
+De fontes públicas acompanhadas automaticamente a cada 2 horas: imprensa especializada em beleza e cosméticos, imprensa de negócios e varejo, associações do setor, órgãos reguladores, feiras e salas de imprensa das empresas. Cada título leva à matéria no veículo que a publicou; os resumos e as análises dos destaques são próprios.
+
+### O Beauty Brasil publica conteúdo patrocinado?
+Notícia, análise e qualquer conteúdo patrocinado ficam sempre separados e identificados. A seleção das notícias e dos destaques segue critérios editoriais, não comerciais.
+
+### Como pedir uma correção ou sugerir uma notícia?
+Pelo e-mail faleconosco@beautybrasil.com.br. Correções e pedidos de remoção são atendidos com prioridade, e o que mudou fica indicado na página.
+
+## Sobre
+- [Princípios editoriais e política de correções](https://www.beautybrasil.com.br/sobre/)
+- [Política de Privacidade](https://www.beautybrasil.com.br/privacidade/)
+- Contato: faleconosco@beautybrasil.com.br
