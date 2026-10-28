@@ -1591,3 +1591,35 @@ body{font-family:var(--font);font-weight:400;letter-spacing:.005em}
   .edblock{padding-block:44px}
   .eh .chips{display:none}
 }
+
+/* mundo com evidência (28/10): seção escura no alto da capa */
+.mu-sec{background:#0F2236;color:#fff;position:relative;isolation:isolate;overflow:hidden}
+.mu-sec::before{content:"";position:absolute;inset:0;z-index:-1;background:url(/site-beautybrasil/img/b-laboratorio.jpg) center/cover no-repeat;opacity:.1;mix-blend-mode:luminosity}
+.mu-sec .sh .eye{color:#BFD9EF}.mu-sec .sh h2{color:#fff}.mu-sec .sh p{color:rgba(255,255,255,.82)}
+.mu-sec .btn{background:#fff;color:#0F2236}
+.mu-sec .mu-grid{grid-template-columns:1.35fr 1fr;gap:22px}
+.mu-sec .mu-lider{min-height:500px}
+.mu-duas{display:grid;grid-template-rows:1fr 1fr;gap:22px}
+.mu-card{position:relative;display:block;border-radius:22px;overflow:hidden;min-height:239px;color:#fff;text-decoration:none}
+.mu-card img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.mu-card:hover img{transform:scale(1.03)}
+.mu-card::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(9,18,30,.92) 0%,rgba(9,18,30,.5) 55%,rgba(9,18,30,.05) 100%)}
+.mu-card .mu-txt{padding:22px}
+.mu-card .mu-txt h3{font-size:clamp(19px,1.6vw,23px);margin:8px 0 6px}
+.mu-sec .mu-lista.mu-3col{display:grid;grid-template-columns:repeat(3,1fr);gap:0 28px;margin-top:30px}
+.mu-sec .mu-lista li{border-bottom:1px solid rgba(255,255,255,.14)}
+.mu-sec .mu-lista li:last-child{border-bottom:1px solid rgba(255,255,255,.14)}
+.mu-sec .mu-lista a{color:#fff}
+.mu-sec .mu-lista a:hover b{color:#BFD9EF}
+.mu-sec .mu-lista small{color:rgba(255,255,255,.62)}
+.mu-sec .mu-lista .mu-tema{color:#9CC5E8}
+.mu-sec .mu-temas a{background:rgba(255,255,255,.1);color:#fff}
+.mu-sec .mu-temas a:hover{background:rgba(255,255,255,.18)}
+.mu-sec .mu-temas .pn-ic{background:rgba(255,255,255,.16);color:#fff}
+.live-run a.mu-live b{color:var(--blue)}
+@media (max-width:900px){.mu-sec .mu-grid{grid-template-columns:1fr}.mu-sec .mu-lider{min-height:380px}
+  .mu-duas{grid-template-rows:none;grid-template-columns:1fr 1fr}.mu-sec .mu-lista.mu-3col{grid-template-columns:1fr 1fr}}
+@media (max-width:672px){.mu-sec .mu-lider{min-height:340px}
+  .mu-duas{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:84%;overflow-x:auto;scroll-snap-type:x mandatory;margin-right:-20px;padding-right:20px;scrollbar-width:none}
+  .mu-duas::-webkit-scrollbar{display:none}.mu-duas > *{scroll-snap-align:start}
+  .mu-sec .mu-lista.mu-3col{grid-template-columns:1fr}}
