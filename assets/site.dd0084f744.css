@@ -1180,6 +1180,30 @@ body{font-family:var(--font);font-weight:400;letter-spacing:.005em}
 .pn-ind b{font-weight:400;font-size:32px;color:var(--text)}
 .pmais{font-weight:500;color:var(--link)}
 .edblock.bt-topo{background:#fff;padding-top:72px}
+/* destaque principal: foto inteira, texto por cima com véu escuro só do lado do texto (leitura alta) */
+.hero{background:#0F1C2A}
+.slide > .ph{left:0;right:0}
+.slide > .ph img{object-position:center 35%}
+.slide > .ph::after{background:linear-gradient(90deg,rgba(9,18,30,.78) 0%,rgba(9,18,30,.55) 38%,rgba(9,18,30,.12) 70%,rgba(9,18,30,0) 100%),
+  linear-gradient(0deg,rgba(9,18,30,.55) 0%,rgba(9,18,30,0) 30%)}
+.slide h1,.slide h2,.slide .shl{color:#fff;text-shadow:0 2px 24px rgba(0,0,0,.25)}
+.slide p.ld{color:rgba(255,255,255,.92)}
+.slide .when{color:rgba(255,255,255,.75)}
+.slide .tag.solid{background:rgba(255,255,255,.92);color:var(--blue)}
+.slide .btn,.slide .btn.white{background:#fff;color:#0F1C2A;border-color:#fff}
+.slide .btn:hover{background:var(--blush);color:#0F1C2A}
+.slide .btn.line-w{color:#fff;background:none}
+.slide .btn.line-w:hover{color:var(--blush)}
+.hero .credit{color:rgba(255,255,255,.75)}
+.hero-ctrl{background:rgba(9,18,30,.55);border-top:1px solid rgba(255,255,255,.12);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}
+.hero-ctrl .dot{color:rgba(255,255,255,.72)}.hero-ctrl .dot.on{color:#fff}.hero-ctrl .dot b{color:#BFD9EF}
+.hero-ctrl .dot::before{background:rgba(255,255,255,.25)}.hero-ctrl .dot i{background:#fff}
+/* principais da semana: fundo azul-escuro e boxes brancos na frente */
+#principais{background:linear-gradient(160deg,#0F2236 0%,#16324D 100%)}
+#principais .sh .eye{color:#BFD9EF}
+#principais .sh h2{color:#fff}
+#principais .sh p{color:rgba(255,255,255,.8)}
+#principais .card{background:#fff;box-shadow:0 22px 44px -24px rgba(0,0,0,.6)}
 :root{--ed-H:#2D6A9F;--ed-C:#2D6A9F;--ed-O:#2D6A9F;--ed-U:#2D6A9F;--ed-F:#2D6A9F;--ed-B:#2D6A9F;--ed-W:#2D6A9F;--ed-P:#2D6A9F;--ed-R:#2D6A9F;--ed-T:#2D6A9F;--ed-E:#2D6A9F}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--ed-H:#EBA7B8;--ed-C:#E2B07A;--ed-O:#C3A6E0;--ed-U:#E89BC4;--ed-F:#E2BB72;--ed-B:#8CCFC7;--ed-W:#A9C795;--ed-P:#EE9AA4;--ed-R:#8DC3DB;--ed-T:#A9B0F0;--ed-E:#C9BCC0}}
 :root[data-theme="dark"],.dark,.tech{--ed-H:#EBA7B8;--ed-C:#E2B07A;--ed-O:#C3A6E0;--ed-U:#E89BC4;--ed-F:#E2BB72;--ed-B:#8CCFC7;--ed-W:#A9C795;--ed-P:#EE9AA4;--ed-R:#8DC3DB;--ed-T:#A9B0F0;--ed-E:#C9BCC0}
