@@ -1202,7 +1202,9 @@ body{font-family:var(--font);font-weight:400;letter-spacing:.005em}
 .slide.dir .txt{margin-left:auto}
 .slide.dir > .ph::after{background:linear-gradient(270deg,rgba(9,18,30,.78) 0%,rgba(9,18,30,.55) 38%,rgba(9,18,30,.12) 70%,rgba(9,18,30,0) 100%),
   linear-gradient(0deg,rgba(9,18,30,.55) 0%,rgba(9,18,30,0) 30%)}
-#principais{background:linear-gradient(160deg,#0F2236 0%,#16324D 100%)}
+#principais{background:linear-gradient(160deg,#0F2236 0%,#16324D 100%);position:relative;isolation:isolate;overflow:hidden}
+/* textura: foto de beleza (texturas de creme e sérum) bem apagada por trás do azul */
+#principais::before{content:"";position:absolute;inset:0;z-index:-1;background:url(/site-beautybrasil/img/b-cremes.jpg) center/cover no-repeat;opacity:.14;mix-blend-mode:luminosity}
 #principais .sh .eye{color:#BFD9EF}
 #principais .sh h2{color:#fff}
 #principais .sh p{color:rgba(255,255,255,.8)}
@@ -1257,6 +1259,43 @@ body{font-family:var(--font);font-weight:400;letter-spacing:.005em}
 .cad .hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
 .cad .btn{align-self:flex-start}
 .cad-msg{min-height:1.4em;font-weight:600}
+
+/* pesquisa e ativos: boxes brancos com ícone da categoria e selo do nível de evidência */
+.atv-grade{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:20px;margin:24px 0}
+.atv{background:#fff;border-radius:var(--r,20px);box-shadow:var(--sombra,0 14px 36px -22px rgba(30,60,90,.32));padding:24px;display:flex;flex-direction:column;gap:10px}
+.atv[hidden]{display:none}
+.atv-top{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.atv .pn-ic,.atv-filtro .pn-ic{flex:none;display:inline-grid;place-items:center;border-radius:50%;background:var(--blush);color:var(--blue)}
+.atv .pn-ic{width:40px;height:40px}.atv .pn-ic svg{width:20px;height:20px}
+.atv-cat{font-size:12px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:var(--blue)}
+.atv-novo{margin-left:auto;font-size:11.5px;font-weight:600;padding:4px 10px;border-radius:999px;background:#0F2236;color:#fff}
+.atv h3{font:400 26px/1.15 var(--display);margin:4px 0 0}
+.atv-fab{margin:0;color:var(--text-2);font-weight:500}
+.atv-inci{margin:0;font-size:12.5px;color:var(--text-3);line-height:1.45}
+.atv-inci span{font-weight:600;letter-spacing:.08em;color:var(--text-2);margin-right:4px}
+.atv-como{margin:0;font-size:15px;line-height:1.55}
+.atv-inf{list-style:none;margin:0;padding:0;display:flex;gap:8px;flex-wrap:wrap}
+.atv-inf li{font-size:12.5px;background:var(--tint);border:1px solid var(--border);border-radius:10px;padding:6px 10px}
+.atv-inf b{font-weight:600;margin-right:4px}
+.atv-ev{margin:auto 0 0;font-size:13px;line-height:1.5;border-radius:12px;padding:10px 12px;display:flex;flex-direction:column;gap:4px;background:#F4F6F8}
+.atv-ev b{font-weight:600}
+.atv-ev.ok{background:#E8F5EE}.atv-ev.ok b{color:#1F6B45}
+.atv-ev.meio{background:#EEF5FB}.atv-ev.meio b{color:#285F8F}
+.atv-ev.fab b{color:#5B6B78}
+.atv-links{margin:0;font-size:13px}.atv-links a{color:var(--link);font-weight:500}
+.atv-filtro{display:flex;flex-wrap:wrap;gap:8px}
+.atv-filtro button{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--border);background:#fff;border-radius:999px;padding:6px 14px 6px 6px;font:500 13.5px var(--font);color:var(--text);cursor:pointer}
+.atv-filtro button:first-child{padding-left:14px}
+.atv-filtro .pn-ic{width:26px;height:26px}.atv-filtro .pn-ic svg{width:15px;height:15px}
+.atv-filtro button small{color:var(--text-3)}
+.atv-filtro button.on{background:#0F2236;border-color:#0F2236;color:#fff}.atv-filtro button.on small{color:#BFD9EF}
+.atv-legenda{list-style:none;padding:0;display:grid;gap:10px}.atv-legenda li{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.atv-legenda .atv-ev{display:inline-flex;margin:0}
+.atv-sec{background:#F8FBFD}
+.atv-sec .sh{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;flex-wrap:wrap}
+.atv-grade.capa{grid-template-columns:repeat(4,minmax(0,1fr))}
+@media (max-width:1100px){.atv-grade.capa{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:672px){.atv-grade.capa{grid-template-columns:minmax(0,1fr)}}
 
 /* ---------- seções de dados ---------- */
 .art.largo{max-width:1180px}
