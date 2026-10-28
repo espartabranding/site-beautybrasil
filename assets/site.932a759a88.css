@@ -1297,6 +1297,34 @@ body{font-family:var(--font);font-weight:400;letter-spacing:.005em}
 .cad .btn{align-self:flex-start}
 .cad-msg{min-height:1.4em;font-weight:600}
 
+/* mundo e tendências globais */
+.mu-sec{background:#fff}
+.mu-grid{display:grid;grid-template-columns:1.15fr 1fr;gap:28px;align-items:stretch}
+.mu-lider{position:relative;display:block;border-radius:22px;overflow:hidden;min-height:440px;color:#fff;text-decoration:none}
+.mu-lider img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.mu-lider:hover img{transform:scale(1.03)}
+.mu-lider::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(9,18,30,.9) 0%,rgba(9,18,30,.55) 45%,rgba(9,18,30,0) 75%)}
+.mu-txt{position:absolute;z-index:1;left:0;right:0;bottom:0;padding:28px}
+.mu-txt h3{margin:10px 0 8px;font:400 clamp(24px,2.4vw,32px)/1.15 var(--display);color:#fff}
+.mu-txt small{color:rgba(255,255,255,.8)}
+.mu-tema{display:inline-block;font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;font-weight:600;color:var(--blue)}
+.mu-txt .mu-tema{color:#BFD9EF}
+.mu-lista{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.mu-lista li{border-bottom:1px solid #DCE7F1}
+.mu-lista li:last-child{border-bottom:0}
+.mu-lista a{display:flex;flex-direction:column;gap:4px;padding:14px 4px;text-decoration:none;color:var(--text)}
+.mu-lista a:hover b{color:var(--blue)}
+.mu-lista b{font:500 17px/1.35 var(--font)}
+.mu-lista small{font-size:12.5px;color:var(--text-3)}
+.mu-temas{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+.mu-temas a{display:inline-flex;align-items:center;gap:8px;padding:6px 14px 6px 6px;border-radius:999px;background:var(--blush);color:var(--text);font-size:14px;text-decoration:none}
+.mu-temas a:hover{background:#DCEBF7}
+.mu-temas .pn-ic{width:30px;height:30px}
+.mu-area .mu-lista{margin-top:10px}
+@media (max-width:900px){.mu-grid{grid-template-columns:1fr}.mu-lider{min-height:360px}}
+@media (max-width:672px){.mu-lider{min-height:320px}.mu-txt{padding:20px}
+  .mu-temas{flex-wrap:nowrap;overflow-x:auto;margin-right:-20px;padding-right:20px;scrollbar-width:none}.mu-temas::-webkit-scrollbar{display:none}.mu-temas a{flex:none}}
+
 /* procedimentos */
 .proc-data{margin-left:auto;font-size:12.5px;color:var(--text-3)}
 .proc h3{font:500 21px/1.25 var(--font)}
