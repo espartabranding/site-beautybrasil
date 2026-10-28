@@ -1199,6 +1199,9 @@ body{font-family:var(--font);font-weight:400;letter-spacing:.005em}
 .hero-ctrl .dot{color:rgba(255,255,255,.72)}.hero-ctrl .dot.on{color:#fff}.hero-ctrl .dot b{color:#BFD9EF}
 .hero-ctrl .dot::before{background:rgba(255,255,255,.25)}.hero-ctrl .dot i{background:#fff}
 /* principais da semana: fundo azul-escuro e boxes brancos na frente */
+.slide.dir .txt{margin-left:auto}
+.slide.dir > .ph::after{background:linear-gradient(270deg,rgba(9,18,30,.78) 0%,rgba(9,18,30,.55) 38%,rgba(9,18,30,.12) 70%,rgba(9,18,30,0) 100%),
+  linear-gradient(0deg,rgba(9,18,30,.55) 0%,rgba(9,18,30,0) 30%)}
 #principais{background:linear-gradient(160deg,#0F2236 0%,#16324D 100%)}
 #principais .sh .eye{color:#BFD9EF}
 #principais .sh h2{color:#fff}
