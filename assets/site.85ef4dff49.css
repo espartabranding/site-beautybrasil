@@ -1311,6 +1311,7 @@ body{font-family:var(--font);font-weight:400;letter-spacing:.005em}
 .proc-sec{background:#0F2236;color:#fff}
 .proc-sec .sh .eye{color:#BFD9EF}.proc-sec .sh h2{color:#fff}.proc-sec .sh p{color:rgba(255,255,255,.82)}
 .proc-sec .btn{background:#fff;color:#0F2236}
+.proc-sec .atv{color:var(--text)}.proc-sec .atv h3{color:var(--text)}.proc-sec .atv-como{color:var(--text)}.proc-sec .atv-links a{color:var(--link)}
 @media (max-width:672px){.proc-banner{aspect-ratio:16/8}.proc-banner h2{font-size:26px}}
 
 .pn-banner{min-height:0;aspect-ratio:21/6;align-self:auto}
