@@ -1539,7 +1539,7 @@ body{font-family:var(--font);font-weight:400;letter-spacing:.005em}
 /* ===== responsivo (28/10/2026): imagem, navegação e altura da página no celular ===== */
 .mmenu{display:none}
 .mast .brand{flex:none}.mast .logo-img{flex:none;width:auto;max-width:none}
-@media (min-width:901px) and (max-width:1280px){.mnav > a,.mnav .dd > button{padding:0 9px;letter-spacing:.08em}}
+@media (min-width:901px) and (max-width:1500px){.mnav > a,.mnav .dd > button{padding:0 9px;letter-spacing:.06em}.mast .htools > .btn{display:none}}
 .subir{display:none}
 @media (max-width:900px){
   .mast .wrap{flex-wrap:wrap;height:auto;padding-block:10px;row-gap:6px}
