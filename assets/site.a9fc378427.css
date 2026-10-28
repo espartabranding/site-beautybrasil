@@ -1490,3 +1490,52 @@ body{font-family:var(--font);font-weight:400;letter-spacing:.005em}
 @media print{.banda{margin:0;padding:0;background:none!important;color:#000}.banda::before,.banda::after,.banda .scan{display:none}}
 @media print{.sub > header,.sub > footer,.crumbs,.imprimir,.dados-nav,#cookies,.share{display:none!important}.art{padding:0;max-width:none}
   .tabela{border:0;overflow:visible}.tabela table{min-width:0}a{color:inherit!important;text-decoration:none!important}}
+
+/* ===== responsivo (28/10/2026): imagem, navegação e altura da página no celular ===== */
+.mmenu{display:none}
+.subir{display:none}
+@media (max-width:900px){
+  .mast .wrap{flex-wrap:wrap;height:auto;padding-block:10px;row-gap:6px}
+  .subnav{order:3;flex:1 0 100%;margin:0 -8px;padding-bottom:4px}
+  .mast > .wrap > .btn{display:none}
+  .mmenu{display:block;margin-left:auto;position:relative}
+  .mmenu summary{list-style:none;cursor:pointer;width:44px;height:44px;display:grid;place-items:center;border-radius:50%;color:var(--text)}
+  .mmenu summary::-webkit-details-marker{display:none}
+  .mmenu[open] summary{background:var(--blush)}
+  .mmenu nav{position:absolute;right:0;top:50px;z-index:60;width:min(86vw,320px);background:#fff;border-radius:16px;
+    box-shadow:0 24px 48px -20px rgba(9,18,30,.45);padding:10px;display:flex;flex-direction:column}
+  .mmenu nav a{padding:12px 14px;border-radius:10px;font-size:15px;color:var(--text)}
+  .mmenu nav a:hover{background:var(--blush)}
+  .subir{display:grid;place-items:center;position:fixed;right:16px;bottom:18px;z-index:70;width:46px;height:46px;border-radius:50%;
+    background:#0F2236;color:#fff;font-size:20px;box-shadow:0 12px 28px -12px rgba(9,18,30,.6);text-decoration:none}
+}
+@media (max-width:672px){
+  /* manchete e destaques: foto em cima, texto na base, véu vindo de baixo; nada cobre o assunto da foto */
+  .hero{height:auto;min-height:clamp(560px,86vh,700px)}
+  .slide .wrap{justify-content:flex-end;padding-bottom:92px}
+  .slide.dir .txt{margin-left:0}
+  .slide > .ph::after,.slide.dir > .ph::after{background:linear-gradient(0deg,rgba(9,18,30,.92) 0%,rgba(9,18,30,.7) 38%,rgba(9,18,30,.15) 66%,rgba(9,18,30,0) 100%)}
+  .slide h1,.slide h2{font-size:clamp(28px,8.4vw,36px);line-height:1.08}
+  .slide p.ld{font-size:15px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+  .slide .btn.line-w{display:none}
+  .subhero.split{min-height:clamp(520px,82vh,640px)}
+  .subhero.split .wrap,.subhero.split.dir .wrap{align-content:end;justify-items:start;padding:0 20px 36px}
+  .subhero.split > .ph::after,.subhero.split.dir > .ph::after{background:linear-gradient(0deg,rgba(9,18,30,.92) 0%,rgba(9,18,30,.68) 40%,rgba(9,18,30,0) 72%)}
+  .subhero.split h2{font-size:clamp(26px,7.6vw,32px)}
+  .subhero.split p.ld{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+  .subhero.split aside{display:none}
+  /* listas longas viram carrosséis com rolagem lateral: a página fica bem mais curta */
+  .atv-grade.capa,#feat,.mural,.pn-normas4,.pn-reg3,.pn-donuts,.pn-selos{display:grid;grid-auto-flow:column;grid-template-columns:none;
+    grid-auto-columns:84%;overflow-x:auto;scroll-snap-type:x mandatory;gap:14px;padding-bottom:10px;margin-right:-20px;padding-right:20px;scrollbar-width:none}
+  .atv-grade.capa::-webkit-scrollbar,#feat::-webkit-scrollbar,.mural::-webkit-scrollbar,.pn-normas4::-webkit-scrollbar,.pn-reg3::-webkit-scrollbar,.pn-donuts::-webkit-scrollbar,.pn-selos::-webkit-scrollbar{display:none}
+  .atv-grade.capa > *,#feat > *,.mural > *,.pn-normas4 > *,.pn-reg3 > *,.pn-donuts > *,.pn-selos > *{scroll-snap-align:start}
+  .pn-selos{grid-auto-columns:62%}
+  .mural{grid-auto-columns:62%}
+  .pn-foto{min-height:200px}
+  .pn-banner{aspect-ratio:16/10}
+  .atv-filtro{flex-wrap:nowrap;overflow-x:auto;margin-right:-20px;padding-right:20px;scrollbar-width:none}
+  .atv-filtro::-webkit-scrollbar{display:none}
+  .atv-filtro button{flex:none}
+  .pn-card{padding:20px}
+  .sec{padding-block:56px}
+}
