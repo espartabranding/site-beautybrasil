@@ -1267,10 +1267,17 @@ body{font-family:var(--font);font-weight:400;letter-spacing:.005em}
 .cad .btn{align-self:flex-start}
 .cad-msg{min-height:1.4em;font-weight:600}
 
+.ag-conf{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
+.ag-conf li{background:#fff;border-radius:14px;box-shadow:0 10px 28px -20px rgba(30,60,90,.35);padding:14px 16px;display:flex;flex-direction:column;gap:4px}
+.ag-conf span{font-size:13.5px;color:var(--text-2)}.ag-conf small{font-size:12.5px;color:var(--text-3)}
+
 /* pesquisa e ativos: boxes brancos com ícone da categoria e selo do nível de evidência */
 .atv-grade{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:20px;margin:24px 0}
-.atv{background:#fff;border-radius:var(--r,20px);box-shadow:var(--sombra,0 14px 36px -22px rgba(30,60,90,.32));padding:24px;display:flex;flex-direction:column;gap:10px}
+.atv{background:#fff;border-radius:var(--r,20px);box-shadow:var(--sombra,0 14px 36px -22px rgba(30,60,90,.32));padding:24px;overflow:hidden;display:flex;flex-direction:column;gap:10px}
 .atv[hidden]{display:none}
+.atv-ph{margin:-24px -24px 6px;aspect-ratio:16/10;overflow:hidden;border-radius:var(--r,20px) var(--r,20px) 0 0}
+.atv-ph img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s ease}
+@media (hover:hover){.atv:hover .atv-ph img{transform:scale(1.04)}}
 .atv-top{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
 .atv .pn-ic,.atv-filtro .pn-ic{flex:none;display:inline-grid;place-items:center;border-radius:50%;background:var(--blush);color:var(--blue)}
 .atv .pn-ic{width:40px;height:40px}.atv .pn-ic svg{width:20px;height:20px}

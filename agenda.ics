@@ -4,38 +4,178 @@ PRODID:-//Beauty Brasil//Agenda do setor de beleza//PT-BR
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Feiras e eventos de beleza (Beauty Brasil)
 BEGIN:VEVENT
+UID:467324f6c9838af4c20d99df15d0b76d@beautybrasil.com.br
+DTSTAMP:20261028T142504Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261108
+SUMMARY:31ª RADESP + 19º Simpósio de Cosmiatria\, Laser e Tecnologias da SBD
+LOCATION:Campos do Jordão - SP
+DESCRIPTION:Reunião anual dos dermatologistas paulistas somada ao simpósio de cosmiatria\, laser e tecnologias da SBD\, voltada a dermatologistas e residentes\, no Campos Hall. https://eventos.sbd.org.br/31radesp-19cosmiatria/
+URL:https://eventos.sbd.org.br/31radesp-19cosmiatria/
+END:VEVENT
+BEGIN:VEVENT
 UID:1fc20fcf60bd7de4dc85ce02f115d652@beautybrasil.com.br
-DTSTAMP:20261028T141518Z
+DTSTAMP:20261028T142504Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261110
 SUMMARY:Estética In Nordeste 2026
 LOCATION:Fortaleza - CE
-DESCRIPTION:Edição regional da feira de estética Estética In\, voltada a profissionais e empresas do mercado de estética\, no Centro de Eventos do Ceará. https://www.esteticain.com.br
-URL:https://www.esteticain.com.br
+DESCRIPTION:Edição regional da feira Estética In para esteticistas\, biomédicos\, harmonizadores e empresas de estética\, com congressos científicos de estética\, dermopigmentação e lash\, no Centro de Eventos do Ceará. https://www.esteticainnordeste.com.br/
+URL:https://www.esteticainnordeste.com.br/
+END:VEVENT
+BEGIN:VEVENT
+UID:872b26acad937deff8acaa59fab45407@beautybrasil.com.br
+DTSTAMP:20261028T142504Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261115
+SUMMARY:62º Congresso Brasileiro de Cirurgia Plástica
+LOCATION:Fortaleza - CE
+DESCRIPTION:Congresso nacional anual da SBCP\, com cirurgia plástica estética e reparadora\, voltado a cirurgiões plásticos e residentes\, em Fortaleza. https://sbcpcongressobrasileiro.com.br/
+URL:https://sbcpcongressobrasileiro.com.br/
+END:VEVENT
+BEGIN:VEVENT
+UID:522023ed08b3d2c03b65f68d8f258f67@beautybrasil.com.br
+DTSTAMP:20261028T142504Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261115
+SUMMARY:103ª Jornada Goiana de Dermatologia
+LOCATION:Goiânia - GO
+DESCRIPTION:Jornada científica regional da dermatologia goiana\, voltada a dermatologistas e residentes\, em Goiânia. https://www.sbd.org.br/calendario-completo/
+URL:https://www.sbd.org.br/calendario-completo/
+END:VEVENT
+BEGIN:VEVENT
+UID:0742e13729e1208721594196cb43b894@beautybrasil.com.br
+DTSTAMP:20261028T142504Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261117
+SUMMARY:Barber Week 2026
+LOCATION:São Paulo - SP
+DESCRIPTION:Feira e congresso de barbearia com marcas de produtos e equipamentos\, demonstrações técnicas e conteúdo de gestão para barbeiros e donos de barbearia\, no Pavilhão Azul do Expo Center Norte. https://barberweek.com.br/
+URL:https://barberweek.com.br/
+END:VEVENT
+BEGIN:VEVENT
+UID:a5906747e962cf5aea7988872408e7ab@beautybrasil.com.br
+DTSTAMP:20261028T142504Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261122
+SUMMARY:XXXV Jornada Pernambucana de Dermatologia
+LOCATION:Recife - PE
+DESCRIPTION:Jornada científica regional da dermatologia pernambucana\, voltada a dermatologistas e residentes\, no Recife. https://www.sbd.org.br/calendario-completo/
+URL:https://www.sbd.org.br/calendario-completo/
+END:VEVENT
+BEGIN:VEVENT
+UID:de5b2455c18c519ebafc4846083928cb@beautybrasil.com.br
+DTSTAMP:20261028T142504Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261123
+SUMMARY:Bioesthetic Brasil 2026
+LOCATION:Rio de Janeiro - RJ
+DESCRIPTION:Evento de dois dias de atualização em estética e biomedicina estética para profissionais da área\, no Square Design Hotel\, na Barra da Tijuca. https://www.sympla.com.br/evento/bioesthetic-brasil-2026/3256421
+URL:https://www.sympla.com.br/evento/bioesthetic-brasil-2026/3256421
+END:VEVENT
+BEGIN:VEVENT
+UID:e4c496d489658174437b6032b1829684@beautybrasil.com.br
+DTSTAMP:20261028T142504Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261127
+SUMMARY:Semana Cosmetoguia 2026
+LOCATION:São Paulo - SP
+DESCRIPTION:Três seminários técnicos de um dia para formuladores e profissionais da indústria cosmética (higiene pet\, produtos para a terceira idade e fotoproteção)\, no auditório do Hotel Travel Inn Ibirapuera. https://cosmetoguia.com.br/
+URL:https://cosmetoguia.com.br/
+END:VEVENT
+BEGIN:VEVENT
+UID:11625ce0e39f15c5493c7eb65de4ce0c@beautybrasil.com.br
+DTSTAMP:20261028T142504Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Innovation Day Porto Alegre 2026
+LOCATION:Porto Alegre - RS
+DESCRIPTION:Seminário gratuito de um dia sobre inovação para profissionais da indústria cosmética\, no Hotel Deville Prime Porto Alegre. https://cosmeticinnovation.com.br/eventos/innovation-day-porto-alegre-rs-2026/
+URL:https://cosmeticinnovation.com.br/eventos/innovation-day-porto-alegre-rs-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:febdffaac5655fe5a7d23cb07aff8500@beautybrasil.com.br
+DTSTAMP:20261028T142504Z
+DTSTART;VALUE=DATE:20270310
+DTEND;VALUE=DATE:20270311
+SUMMARY:Cosmetoguia Nordeste 2027
+LOCATION:Salvador - BA
+DESCRIPTION:Encontro técnico de um dia que reúne profissionais de P&D e formulação das indústrias de cosméticos do Nordeste. https://cosmetoguia.com.br/
+URL:https://cosmetoguia.com.br/
+END:VEVENT
+BEGIN:VEVENT
+UID:4b4d1ac0c5ddc40d2444b05ff25d8c0c@beautybrasil.com.br
+DTSTAMP:20261028T142504Z
+DTSTART;VALUE=DATE:20270316
+DTEND;VALUE=DATE:20270319
+SUMMARY:Abradilan Conexão Farma 2027
+LOCATION:São Paulo - SP
+DESCRIPTION:Feira de negócios do canal farma que reúne indústria\, distribuidores\, varejo farmacêutico e prestadores de serviço\, no Expo Center Norte. https://abradilan.com.br/conexao-farma-2027/
+URL:https://abradilan.com.br/conexao-farma-2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:f17e3c7ea74200a01610f8f1f6893cac@beautybrasil.com.br
+DTSTAMP:20261028T142504Z
+DTSTART;VALUE=DATE:20270403
+DTEND;VALUE=DATE:20270406
+SUMMARY:10º Congresso Internacional Científico Multidisciplinar em Estética
+LOCATION:São Paulo - SP
+DESCRIPTION:Congresso científico multidisciplinar para profissionais de estética\, saúde e harmonização\, realizado dentro da Estética In São Paulo\, no Centro de Convenções do Distrito Anhembi. https://esteticainsaopaulo.com.br/congresso-estetica
+URL:https://esteticainsaopaulo.com.br/congresso-estetica
 END:VEVENT
 BEGIN:VEVENT
 UID:18bf0eeaf13c21aee4abd8f54d15d1c9@beautybrasil.com.br
-DTSTAMP:20261028T141518Z
+DTSTAMP:20261028T142504Z
 DTSTART;VALUE=DATE:20270403
 DTEND;VALUE=DATE:20270406
 SUMMARY:Estética In São Paulo 2027
 LOCATION:São Paulo - SP
-DESCRIPTION:Feira do mercado de estética voltada a profissionais e empresas do segmento\, no Distrito Anhembi. https://www.esteticain.com.br
-URL:https://www.esteticain.com.br
+DESCRIPTION:Principal edição da feira Estética In\, com a Feira da Beleza\, Saúde e Bem-Estar e congressos para esteticistas\, biomédicos e harmonizadores\, no Distrito Anhembi. https://www.esteticainsaopaulo.com.br/
+URL:https://www.esteticainsaopaulo.com.br/
+END:VEVENT
+BEGIN:VEVENT
+UID:fe7aa1c1eaeaf43446cf03dcc2ea1e6e@beautybrasil.com.br
+DTSTAMP:20261028T142504Z
+DTSTART;VALUE=DATE:20270406
+DTEND;VALUE=DATE:20270409
+SUMMARY:Private Label Brazil 2027
+LOCATION:São Paulo - SP
+DESCRIPTION:Feira de marcas próprias e terceirização industrial\, com fabricantes terceiristas (inclusive de cosméticos) para varejistas e donos de marca\, no Distrito Anhembi. https://privatelabelbrazil.com.br/
+URL:https://privatelabelbrazil.com.br/
+END:VEVENT
+BEGIN:VEVENT
+UID:f74d9507b1d86eed7bff91a3b362d1ce@beautybrasil.com.br
+DTSTAMP:20261028T142504Z
+DTSTART;VALUE=DATE:20270411
+DTEND;VALUE=DATE:20270414
+SUMMARY:Hair Summit 2027
+LOCATION:São Paulo - SP
+DESCRIPTION:Congresso técnico de cabelo para cabeleireiros e donos de salão\, com palcos de corte\, cor e tratamentos\, no Pavilhão Azul do Expo Center Norte. https://hairsummit.com.br/
+URL:https://hairsummit.com.br/
 END:VEVENT
 BEGIN:VEVENT
 UID:dee7ac74673c53d21b20d52fefb5d906@beautybrasil.com.br
-DTSTAMP:20261028T141518Z
+DTSTAMP:20261028T142504Z
 DTSTART;VALUE=DATE:20270415
 DTEND;VALUE=DATE:20270418
 SUMMARY:37º Congresso Brasileiro de Cirurgia Dermatológica (CBCD 2027)
 LOCATION:São Paulo - SP
-DESCRIPTION:Congresso científico anual de cirurgia dermatológica e procedimentos estéticos\, voltado a dermatologistas\, no Transamérica Expo Center. https://cbcd2027.com.br/
+DESCRIPTION:Congresso científico anual de cirurgia dermatológica\, cosmiatria e procedimentos estéticos\, voltado a dermatologistas\, no Transamérica Expo Center. https://cbcd2027.com.br/
 URL:https://cbcd2027.com.br/
 END:VEVENT
 BEGIN:VEVENT
+UID:1d017999f6587b00ddd699e369e0f74a@beautybrasil.com.br
+DTSTAMP:20261028T142504Z
+DTSTART;VALUE=DATE:20270429
+DTEND;VALUE=DATE:20270430
+SUMMARY:Business Integration Symposium (BIS 2027)
+LOCATION:São Paulo - SP
+DESCRIPTION:Simpósio de um dia para formuladores\, P&D e decisores das indústrias cosmética e farmacêutica\, com apresentações de fornecedores de ingredientes\, no Milenium Convention Center. https://businessintegration.com.br/
+URL:https://businessintegration.com.br/
+END:VEVENT
+BEGIN:VEVENT
 UID:6bf5798609d663479971a79f3c93b287@beautybrasil.com.br
-DTSTAMP:20261028T141518Z
+DTSTAMP:20261028T142504Z
 DTSTART;VALUE=DATE:20270520
 DTEND;VALUE=DATE:20270523
 SUMMARY:IMCAS Americas 2027
@@ -44,8 +184,28 @@ DESCRIPTION:Congresso internacional de medicina e cirurgia estética\, com demon
 URL:https://www.imcas.com/en/attend/imcas-americas-2027
 END:VEVENT
 BEGIN:VEVENT
+UID:30a7fe6ddf4c0e9ac8dfddb3340b5999@beautybrasil.com.br
+DTSTAMP:20261028T142504Z
+DTSTART;VALUE=DATE:20270529
+DTEND;VALUE=DATE:20270601
+SUMMARY:Beauty Show Make & Nails 2027
+LOCATION:São Paulo - SP
+DESCRIPTION:Feira de maquiagem e unhas para profissionais e consumidores\, com marcas\, lançamentos e demonstrações\, no Expo Center Norte. https://beautyshow.com.br/
+URL:https://beautyshow.com.br/
+END:VEVENT
+BEGIN:VEVENT
+UID:bdfbe0cb5b8485a5eb2316117734d9e5@beautybrasil.com.br
+DTSTAMP:20261028T142504Z
+DTSTART;VALUE=DATE:20270604
+DTEND;VALUE=DATE:20270606
+SUMMARY:Contox Belo Horizonte III 2027
+LOCATION:Belo Horizonte - MG
+DESCRIPTION:Congresso de harmonização orofacial e estética injetável para dentistas\, biomédicos\, médicos\, farmacêuticos\, fisioterapeutas\, enfermeiros e esteticistas\, no Minascentro. https://www.contox.com.br/contox-belo-horizonte/
+URL:https://www.contox.com.br/contox-belo-horizonte/
+END:VEVENT
+BEGIN:VEVENT
 UID:36b3595e0034f410ef158d8fb84bc622@beautybrasil.com.br
-DTSTAMP:20261028T141518Z
+DTSTAMP:20261028T142504Z
 DTSTART;VALUE=DATE:20270608
 DTEND;VALUE=DATE:20270611
 SUMMARY:FCE Cosmetique 2027
@@ -55,62 +215,142 @@ URL:https://www.fcecosmetique.com.br
 END:VEVENT
 BEGIN:VEVENT
 UID:04d97caf0d4bdac522395835f0820242@beautybrasil.com.br
-DTSTAMP:20261028T141518Z
+DTSTAMP:20261028T142504Z
 DTSTART;VALUE=DATE:20270613
 DTEND;VALUE=DATE:20270616
 SUMMARY:Professional Fair Goiás 2027
 LOCATION:Goiânia - GO
-DESCRIPTION:Edição regional da feira de beleza profissional ligada à Beauty Fair\, voltada a cabeleireiros\, esteticistas e salões\, no Centro de Convenções de Goiânia. https://beleza.beautyfair.com.br/professional-fair-institucional
-URL:https://beleza.beautyfair.com.br/professional-fair-institucional
+DESCRIPTION:Edição regional da feira de beleza profissional ligada à Beauty Fair\, voltada a cabeleireiros\, esteticistas e salões\, no Centro de Convenções de Goiânia. https://beleza.beautyfair.com.br/professional-fair-goias
+URL:https://beleza.beautyfair.com.br/professional-fair-goias
+END:VEVENT
+BEGIN:VEVENT
+UID:9ede56a98214400889977553670ac41d@beautybrasil.com.br
+DTSTAMP:20261028T142504Z
+DTSTART;VALUE=DATE:20270617
+DTEND;VALUE=DATE:20270620
+SUMMARY:AMWC Brazil 2027
+LOCATION:São Paulo - SP
+DESCRIPTION:Congresso mundial de medicina estética e antienvelhecimento\, com cursos pré-congresso e exposição da indústria\, voltado a médicos\, no Centro de Convenções Frei Caneca. https://www.amwcbrazil.com.br/
+URL:https://www.amwcbrazil.com.br/
 END:VEVENT
 BEGIN:VEVENT
 UID:ce613082668b4188b5bc0b57de7e8dd6@beautybrasil.com.br
-DTSTAMP:20261028T141518Z
+DTSTAMP:20261028T142504Z
 DTSTART;VALUE=DATE:20270626
 DTEND;VALUE=DATE:20270629
 SUMMARY:Estética In Rio 2027
 LOCATION:Rio de Janeiro - RJ
-DESCRIPTION:Edição carioca da feira de estética Estética In\, voltada a profissionais e empresas do segmento\, no Riocentro. https://www.esteticain.com.br
-URL:https://www.esteticain.com.br
+DESCRIPTION:Edição carioca da Estética In\, com a Feira da Beleza\, Saúde e Bem-Estar e congressos de estética\, micropigmentação e harmonização\, no Riocentro. https://www.esteticainrio.com.br/
+URL:https://www.esteticainrio.com.br/
 END:VEVENT
 BEGIN:VEVENT
 UID:86052aedfc1f8fe61afbb3e66b0f4b29@beautybrasil.com.br
-DTSTAMP:20261028T141518Z
+DTSTAMP:20261028T142504Z
 DTSTART;VALUE=DATE:20270630
 DTEND;VALUE=DATE:20270704
 SUMMARY:ABF Franchising Expo 2027
 LOCATION:São Paulo - SP
-DESCRIPTION:Feira de franquias da ABF\, voltada a investidores\, franqueadores e empreendedores\, no Expo Center Norte. https://www.abfexpo.com.br/
+DESCRIPTION:Feira de franquias da ABF\, com redes de beleza e estética entre os expositores\, voltada a investidores\, franqueadores e empreendedores\, no Expo Center Norte. https://www.abfexpo.com.br/
 URL:https://www.abfexpo.com.br/
 END:VEVENT
 BEGIN:VEVENT
+UID:c10596725f56516788f4b55cc0fdf872@beautybrasil.com.br
+DTSTAMP:20261028T142504Z
+DTSTART;VALUE=DATE:20270701
+DTEND;VALUE=DATE:20270704
+SUMMARY:Congresso Consulfarma 2027
+LOCATION:São Paulo - SP
+DESCRIPTION:Congresso e feira da farmácia magistral e da saúde individualizada\, com trilhas de cosmetologia\, estética e dermatologia\, no Distrito Anhembi. https://www.congresso.consulfarma.com/
+URL:https://www.congresso.consulfarma.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:bcbdba14d6869f95f79da89e5c456735@beautybrasil.com.br
-DTSTAMP:20261028T141518Z
+DTSTAMP:20261028T142504Z
 DTSTART;VALUE=DATE:20270704
 DTEND;VALUE=DATE:20270707
 SUMMARY:Professional Fair Minas Gerais 2027
 LOCATION:Belo Horizonte - MG
-DESCRIPTION:Edição mineira da feira de beleza profissional ligada à Beauty Fair\, voltada a cabeleireiros\, esteticistas e salões\, no ExpoMinas. https://beleza.beautyfair.com.br/professional-fair-institucional
-URL:https://beleza.beautyfair.com.br/professional-fair-institucional
+DESCRIPTION:Edição mineira da feira de beleza profissional ligada à Beauty Fair\, voltada a cabeleireiros\, esteticistas e salões\, no Expominas. https://bh.professionalfair.com.br/
+URL:https://bh.professionalfair.com.br/
+END:VEVENT
+BEGIN:VEVENT
+UID:efeb09617ccff28fac54f6dd3ba62f42@beautybrasil.com.br
+DTSTAMP:20261028T142504Z
+DTSTART;VALUE=DATE:20270729
+DTEND;VALUE=DATE:20270801
+SUMMARY:CONGREHOF 2027
+LOCATION:Florianópolis - SC
+DESCRIPTION:Congresso de harmonização orofacial com programação científica e exposição de empresas\, voltado a dentistas e profissionais da área\, no Centro de Convenções CentroSul. https://congrehof.com.br/lc-2027
+URL:https://congrehof.com.br/lc-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:e3ff48ab7d5e019656233ffa2b29a79a@beautybrasil.com.br
+DTSTAMP:20261028T142504Z
+DTSTART;VALUE=DATE:20270801
+DTEND;VALUE=DATE:20270804
+SUMMARY:Hair Brasília & Beauty 2027
+LOCATION:Brasília - DF
+DESCRIPTION:Feira de beleza profissional do Centro-Oeste para cabeleireiros\, barbeiros\, manicures e donos de salão\, com marcas\, palestras e workshops\, no Pavilhão do Parque da Cidade. https://www.hairbrasilia.com.br/
+URL:https://www.hairbrasilia.com.br/
+END:VEVENT
+BEGIN:VEVENT
+UID:a95dc8d4bce8a2524dceae52459b8857@beautybrasil.com.br
+DTSTAMP:20261028T142504Z
+DTSTART;VALUE=DATE:20270904
+DTEND;VALUE=DATE:20270907
+SUMMARY:80º Congresso Brasileiro de Dermatologia (CSBD 2027)
+LOCATION:Brasília - DF
+DESCRIPTION:Congresso nacional anual da SBD\, com dermatologia clínica\, cirúrgica e cosmiatria e exposição da indústria\, voltado a dermatologistas\, no Centro Internacional de Convenções do Brasil (CICB). https://eventos.sbd.org.br/80csbd/
+URL:https://eventos.sbd.org.br/80csbd/
 END:VEVENT
 BEGIN:VEVENT
 UID:8b8ee42cca5567fe3fbb5ddf1b802f78@beautybrasil.com.br
-DTSTAMP:20261028T141518Z
+DTSTAMP:20261028T142504Z
 DTSTART;VALUE=DATE:20270904
 DTEND;VALUE=DATE:20270908
 SUMMARY:Beauty Fair 2027
 LOCATION:São Paulo - SP
-DESCRIPTION:Feira de beleza profissional com congressos paralelos de estética\, cabelo e design de sobrancelhas\, voltada a profissionais\, distribuidores e indústria\, no Expo Center Norte. https://www.beautyfair.com.br
+DESCRIPTION:Feira de beleza profissional com congressos paralelos de estética\, cabelo\, barbearia e design de sobrancelhas\, voltada a profissionais\, distribuidores e indústria\, no Expo Center Norte. https://www.beautyfair.com.br
 URL:https://www.beautyfair.com.br
 END:VEVENT
 BEGIN:VEVENT
 UID:eecfafcdad12c82f14d8fc07be9e597c@beautybrasil.com.br
-DTSTAMP:20261028T141518Z
+DTSTAMP:20261028T142504Z
 DTSTART;VALUE=DATE:20270922
 DTEND;VALUE=DATE:20270924
 SUMMARY:in-cosmetics Latin America 2027
 LOCATION:São Paulo - SP
 DESCRIPTION:Feira de ingredientes para cosméticos e higiene pessoal\, voltada a formuladores e fornecedores de ingredientes\, fragrâncias\, equipamentos e serviços regulatórios\, no Expo Center Norte. https://www.in-cosmetics.com/latin-america/pt-br.html
 URL:https://www.in-cosmetics.com/latin-america/pt-br.html
+END:VEVENT
+BEGIN:VEVENT
+UID:ff54fde4cfcbfe734a202a073e96cb59@beautybrasil.com.br
+DTSTAMP:20261028T142504Z
+DTSTART;VALUE=DATE:20270925
+DTEND;VALUE=DATE:20270928
+SUMMARY:Estética In Sul 2027
+LOCATION:Curitiba - PR
+DESCRIPTION:Edição sulista da feira Estética In\, com congressos e expositores para esteticistas e empresas de estética\, no Viasoft Experience. https://www.esteticainsul.com.br/
+URL:https://www.esteticainsul.com.br/
+END:VEVENT
+BEGIN:VEVENT
+UID:669202bb3accfe62e2fe38f4e48d1b87@beautybrasil.com.br
+DTSTAMP:20261028T142504Z
+DTSTART;VALUE=DATE:20271016
+DTEND;VALUE=DATE:20271020
+SUMMARY:Professional Fair Rio de Janeiro 2027
+LOCATION:Rio de Janeiro - RJ
+DESCRIPTION:Edição carioca da feira de beleza profissional ligada à Beauty Fair\, voltada a cabeleireiros\, esteticistas\, barbeiros e salões\, na ExpoRio Cidade Nova. https://rj.professionalfair.com.br/
+URL:https://rj.professionalfair.com.br/
+END:VEVENT
+BEGIN:VEVENT
+UID:7096b7aadaf4910ac4e4a74bc17def18@beautybrasil.com.br
+DTSTAMP:20261028T142504Z
+DTSTART;VALUE=DATE:20271021
+DTEND;VALUE=DATE:20271024
+SUMMARY:MAAC Brazil 2027 – Medical Advanced Aesthetic Congress
+LOCATION:São Paulo - SP
+DESCRIPTION:Congresso médico de técnicas avançadas em estética\, restrito a dermatologistas e cirurgiões plásticos com CRM ativo\, no Pro Magno Centro de Convenções. https://maacbrazil.com/
+URL:https://maacbrazil.com/
 END:VEVENT
 END:VCALENDAR
