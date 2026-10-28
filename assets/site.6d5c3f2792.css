@@ -1105,7 +1105,7 @@ footer ul a:hover,.legal a:hover{color:var(--link)}
 .art h1{font-size:clamp(34px,4.2vw,54px);line-height:1.08}
 .sh .eye,.eh .hash{letter-spacing:.2em;color:var(--blue)}
 /* destaque principal: fundo claro, título grande em serifa, foto inteira à direita */
-.hero{background:linear-gradient(100deg,#FFFFFF 0%,#F4F8FC 55%,#EAF2F9 100%);height:clamp(560px,74vh,700px)}
+.hero{background:linear-gradient(100deg,#FFFFFF 0%,#F4F8FC 55%,#EAF2F9 100%);height:clamp(660px,88vh,860px)}
 .slide > .ph{left:46%;background:transparent}
 .slide > .ph img{object-position:center 30%}
 .slide > .ph::after{background:linear-gradient(90deg,#F6F9FC 0%,rgba(246,249,252,0) 16%)}
