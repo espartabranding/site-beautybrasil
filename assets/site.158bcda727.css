@@ -1211,11 +1211,27 @@ body{font-family:var(--font);font-weight:400;letter-spacing:.005em}
 #principais .card{background:#fff;box-shadow:0 22px 44px -24px rgba(0,0,0,.6)}
 /* transição das partes escuras para as claras: base levemente arredondada */
 :root{--curva:44px}
-:is(.hero,#principais,.tech,.sec.dark,.subhero:not(.split)){border-radius:0 0 var(--curva) var(--curva);position:relative;z-index:2;overflow:hidden}
+:is(.hero,#principais,.tech,.sec.dark,.subhero){border-radius:0 0 var(--curva) var(--curva);position:relative;z-index:2;overflow:hidden}
 /* escura seguida de escura: a de baixo sobe por baixo da curva, sem vão branco entre as duas */
-:is(.hero,#principais,.tech,.sec.dark,.subhero:not(.split)) + :is(#principais,.tech,.sec.dark,.subhero:not(.split)){margin-top:calc(-1 * var(--curva));z-index:1}
-:is(.hero,#principais,.tech,.sec.dark,.subhero:not(.split)) + :is(#principais,.tech,.sec.dark){padding-top:calc(88px + var(--curva))}
+:is(.hero,#principais,.tech,.sec.dark,.subhero) + :is(#principais,.tech,.sec.dark,.subhero){margin-top:calc(-1 * var(--curva));z-index:1}
+:is(.hero,#principais,.tech,.sec.dark,.subhero) + :is(#principais,.tech,.sec.dark){padding-top:calc(88px + var(--curva))}
 @media (max-width:672px){:root{--curva:26px}}
+/* destaque entre seções: mesma lógica da manchete, foto inteira no fundo e texto branco por cima */
+.subhero.split{display:block;position:relative;min-height:clamp(540px,72vh,740px);background:#0F1C2A;color:#fff}
+.subhero.split > .ph{position:absolute;inset:0;order:0;min-height:0;height:auto}
+.subhero.split > .ph img{width:100%;height:100%;object-fit:cover;object-position:center 30%}
+.subhero.split > .ph::after{background:linear-gradient(90deg,rgba(9,18,30,.8) 0%,rgba(9,18,30,.55) 40%,rgba(9,18,30,.12) 72%,rgba(9,18,30,0) 100%),
+  linear-gradient(0deg,rgba(9,18,30,.5) 0%,rgba(9,18,30,0) 35%)}
+.subhero.split .wrap{position:relative;z-index:2;min-height:inherit;display:grid;align-content:center;padding-right:max(24px,calc((100vw - var(--maxw))/2 + 24px))}
+.subhero.split h2,.subhero.split .shl{color:#fff;text-shadow:0 2px 24px rgba(0,0,0,.25)}
+.subhero.split .shl:hover{color:#BFD9EF}
+.subhero.split .k,.subhero.split aside > b,.subhero.split p.ld{color:rgba(255,255,255,.88)}
+.subhero.split .when{color:rgba(255,255,255,.72)}
+.subhero.split .btn.white,.subhero.split .btn:not(.line-w){background:#fff;color:#0F1C2A;border-color:#fff}
+.subhero.split .btn.line-w{color:#fff;border-color:#fff;background:none}
+.subhero.split .btn.line-w:hover{background:#fff;color:#0F1C2A}
+.subhero.split .credit{color:rgba(255,255,255,.75)}
+@media (max-width:1100px){.subhero.split > .ph{height:auto}}
 /* mais contraste entre os segmentos: claros em azul-claro de verdade, cartões brancos por cima, números em azul-marinho */
 .sec.gray,.edblock:nth-child(even),.atv-sec{background:#E9F1F8}
 #painel{background:#E3EDF6}
