@@ -1179,6 +1179,7 @@ body{font-family:var(--font);font-weight:400;letter-spacing:.005em}
 .pn-ind .pn-ic{width:38px;height:38px}.pn-ind .pn-ic svg{width:19px;height:19px}
 .pn-ind b{font-weight:400;font-size:32px;color:var(--text)}
 .pmais{font-weight:500;color:var(--link)}
+.edblock.bt-topo{background:#fff;padding-top:72px}
 :root{--ed-H:#2D6A9F;--ed-C:#2D6A9F;--ed-O:#2D6A9F;--ed-U:#2D6A9F;--ed-F:#2D6A9F;--ed-B:#2D6A9F;--ed-W:#2D6A9F;--ed-P:#2D6A9F;--ed-R:#2D6A9F;--ed-T:#2D6A9F;--ed-E:#2D6A9F}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--ed-H:#EBA7B8;--ed-C:#E2B07A;--ed-O:#C3A6E0;--ed-U:#E89BC4;--ed-F:#E2BB72;--ed-B:#8CCFC7;--ed-W:#A9C795;--ed-P:#EE9AA4;--ed-R:#8DC3DB;--ed-T:#A9B0F0;--ed-E:#C9BCC0}}
 :root[data-theme="dark"],.dark,.tech{--ed-H:#EBA7B8;--ed-C:#E2B07A;--ed-O:#C3A6E0;--ed-U:#E89BC4;--ed-F:#E2BB72;--ed-B:#8CCFC7;--ed-W:#A9C795;--ed-P:#EE9AA4;--ed-R:#8DC3DB;--ed-T:#A9B0F0;--ed-E:#C9BCC0}
