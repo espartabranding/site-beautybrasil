@@ -1,0 +1,22 @@
+{
+ "name": "Beauty Brasil",
+ "short_name": "Beauty Brasil",
+ "description": "Inovações e soluções em beleza no Brasil: pele, cabelo, olhos e maquiagem, unhas, perfumaria, corpo e higiene, saúde e bem-estar, estética, ingredientes e beauty tech. Notícias com fonte, resumidas e analisadas para quem cria, vende e decide no setor, com investimentos, regulação e guias.",
+ "lang": "pt-BR",
+ "start_url": "/",
+ "display": "browser",
+ "theme_color": "#2D6A9F",
+ "background_color": "#FFFFFF",
+ "icons": [
+  {
+   "src": "/site-beautybrasil/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "/site-beautybrasil/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png"
+  }
+ ]
+}

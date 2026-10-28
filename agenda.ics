@@ -1,0 +1,116 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Beauty Brasil//Agenda do setor de beleza//PT-BR
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Feiras e eventos de beleza (Beauty Brasil)
+BEGIN:VEVENT
+UID:1fc20fcf60bd7de4dc85ce02f115d652@beautybrasil.com.br
+DTSTAMP:20261028T124622Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261110
+SUMMARY:Estética In Nordeste 2026
+LOCATION:Fortaleza - CE
+DESCRIPTION:Edição regional da feira de estética Estética In\, voltada a profissionais e empresas do mercado de estética\, no Centro de Eventos do Ceará. https://www.esteticain.com.br
+URL:https://www.esteticain.com.br
+END:VEVENT
+BEGIN:VEVENT
+UID:18bf0eeaf13c21aee4abd8f54d15d1c9@beautybrasil.com.br
+DTSTAMP:20261028T124622Z
+DTSTART;VALUE=DATE:20270403
+DTEND;VALUE=DATE:20270406
+SUMMARY:Estética In São Paulo 2027
+LOCATION:São Paulo - SP
+DESCRIPTION:Feira do mercado de estética voltada a profissionais e empresas do segmento\, no Distrito Anhembi. https://www.esteticain.com.br
+URL:https://www.esteticain.com.br
+END:VEVENT
+BEGIN:VEVENT
+UID:dee7ac74673c53d21b20d52fefb5d906@beautybrasil.com.br
+DTSTAMP:20261028T124622Z
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270418
+SUMMARY:37º Congresso Brasileiro de Cirurgia Dermatológica (CBCD 2027)
+LOCATION:São Paulo - SP
+DESCRIPTION:Congresso científico anual de cirurgia dermatológica e procedimentos estéticos\, voltado a dermatologistas\, no Transamérica Expo Center. https://cbcd2027.com.br/
+URL:https://cbcd2027.com.br/
+END:VEVENT
+BEGIN:VEVENT
+UID:6bf5798609d663479971a79f3c93b287@beautybrasil.com.br
+DTSTAMP:20261028T124622Z
+DTSTART;VALUE=DATE:20270520
+DTEND;VALUE=DATE:20270523
+SUMMARY:IMCAS Americas 2027
+LOCATION:São Paulo - SP
+DESCRIPTION:Congresso internacional de medicina e cirurgia estética\, com demonstrações ao vivo e exposição de empresas\, voltado a dermatologistas e cirurgiões plásticos\, no World Trade Center São Paulo. https://www.imcas.com/en/attend/imcas-americas-2027
+URL:https://www.imcas.com/en/attend/imcas-americas-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:36b3595e0034f410ef158d8fb84bc622@beautybrasil.com.br
+DTSTAMP:20261028T124622Z
+DTSTART;VALUE=DATE:20270608
+DTEND;VALUE=DATE:20270611
+SUMMARY:FCE Cosmetique 2027
+LOCATION:São Paulo - SP
+DESCRIPTION:Feira da cadeia de fornecedores da indústria cosmética (ingredientes\, embalagens\, máquinas e processos)\, voltada a fabricantes e áreas de P&D\, no São Paulo Expo. https://www.fcecosmetique.com.br
+URL:https://www.fcecosmetique.com.br
+END:VEVENT
+BEGIN:VEVENT
+UID:04d97caf0d4bdac522395835f0820242@beautybrasil.com.br
+DTSTAMP:20261028T124622Z
+DTSTART;VALUE=DATE:20270613
+DTEND;VALUE=DATE:20270616
+SUMMARY:Professional Fair Goiás 2027
+LOCATION:Goiânia - GO
+DESCRIPTION:Edição regional da feira de beleza profissional ligada à Beauty Fair\, voltada a cabeleireiros\, esteticistas e salões\, no Centro de Convenções de Goiânia. https://beleza.beautyfair.com.br/professional-fair-institucional
+URL:https://beleza.beautyfair.com.br/professional-fair-institucional
+END:VEVENT
+BEGIN:VEVENT
+UID:ce613082668b4188b5bc0b57de7e8dd6@beautybrasil.com.br
+DTSTAMP:20261028T124622Z
+DTSTART;VALUE=DATE:20270626
+DTEND;VALUE=DATE:20270629
+SUMMARY:Estética In Rio 2027
+LOCATION:Rio de Janeiro - RJ
+DESCRIPTION:Edição carioca da feira de estética Estética In\, voltada a profissionais e empresas do segmento\, no Riocentro. https://www.esteticain.com.br
+URL:https://www.esteticain.com.br
+END:VEVENT
+BEGIN:VEVENT
+UID:86052aedfc1f8fe61afbb3e66b0f4b29@beautybrasil.com.br
+DTSTAMP:20261028T124622Z
+DTSTART;VALUE=DATE:20270630
+DTEND;VALUE=DATE:20270704
+SUMMARY:ABF Franchising Expo 2027
+LOCATION:São Paulo - SP
+DESCRIPTION:Feira de franquias da ABF\, voltada a investidores\, franqueadores e empreendedores\, no Expo Center Norte. https://www.abfexpo.com.br/
+URL:https://www.abfexpo.com.br/
+END:VEVENT
+BEGIN:VEVENT
+UID:bcbdba14d6869f95f79da89e5c456735@beautybrasil.com.br
+DTSTAMP:20261028T124622Z
+DTSTART;VALUE=DATE:20270704
+DTEND;VALUE=DATE:20270707
+SUMMARY:Professional Fair Minas Gerais 2027
+LOCATION:Belo Horizonte - MG
+DESCRIPTION:Edição mineira da feira de beleza profissional ligada à Beauty Fair\, voltada a cabeleireiros\, esteticistas e salões\, no ExpoMinas. https://beleza.beautyfair.com.br/professional-fair-institucional
+URL:https://beleza.beautyfair.com.br/professional-fair-institucional
+END:VEVENT
+BEGIN:VEVENT
+UID:8b8ee42cca5567fe3fbb5ddf1b802f78@beautybrasil.com.br
+DTSTAMP:20261028T124622Z
+DTSTART;VALUE=DATE:20270904
+DTEND;VALUE=DATE:20270908
+SUMMARY:Beauty Fair 2027
+LOCATION:São Paulo - SP
+DESCRIPTION:Feira de beleza profissional com congressos paralelos de estética\, cabelo e design de sobrancelhas\, voltada a profissionais\, distribuidores e indústria\, no Expo Center Norte. https://www.beautyfair.com.br
+URL:https://www.beautyfair.com.br
+END:VEVENT
+BEGIN:VEVENT
+UID:eecfafcdad12c82f14d8fc07be9e597c@beautybrasil.com.br
+DTSTAMP:20261028T124622Z
+DTSTART;VALUE=DATE:20270922
+DTEND;VALUE=DATE:20270924
+SUMMARY:in-cosmetics Latin America 2027
+LOCATION:São Paulo - SP
+DESCRIPTION:Feira de ingredientes para cosméticos e higiene pessoal\, voltada a formuladores e fornecedores de ingredientes\, fragrâncias\, equipamentos e serviços regulatórios\, no Expo Center Norte. https://www.in-cosmetics.com/latin-america/pt-br.html
+URL:https://www.in-cosmetics.com/latin-america/pt-br.html
+END:VEVENT
+END:VCALENDAR
