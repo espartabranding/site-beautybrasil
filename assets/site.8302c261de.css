@@ -1,4 +1,52 @@
 @font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/site-beautybrasil/assets/fonts/9076820487.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/site-beautybrasil/assets/fonts/2fed1d1b2e.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/site-beautybrasil/assets/fonts/9076820487.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/site-beautybrasil/assets/fonts/2fed1d1b2e.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/site-beautybrasil/assets/fonts/9076820487.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/site-beautybrasil/assets/fonts/2fed1d1b2e.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 300 700;
@@ -1072,6 +1120,59 @@ footer ul a:hover,.legal a:hover{color:var(--link)}
 }
 .btn{white-space:nowrap}
 .subnav a{font-size:12px;font-weight:500;letter-spacing:.1em;text-transform:uppercase}
+
+/* ======================================================================
+   LAYOUT DE REFERÊNCIA (28/10/2026): site de clínica de estética enviado pelo Rodrigo.
+   Serifa fina nos títulos, destaque claro com foto grande à direita, ícones em círculo,
+   cartões brancos flutuando com sombra suave e muito respiro. Cores: branco e azul bem claro.
+   ====================================================================== */
+:root{--display:"Cormorant Garamond",Georgia,"Times New Roman",serif;--r:20px;--r-sm:14px;
+  --sombra:0 14px 36px -22px rgba(30,60,90,.32);--sombra-hover:0 24px 48px -24px rgba(30,60,90,.40)}
+/* títulos em serifa, peso leve, sem caixa alta */
+.slide h1,.slide h2,.sh h2,.eh h2,.band h2,.subhero h2,.art h1,.prose h2,.art aside h2,.faq summary,.busca-f label,.ov.xl h3{
+  font-family:var(--display);font-weight:500;letter-spacing:-.005em;text-transform:none}
+.sh h2,.eh h2{font-size:clamp(30px,3vw,42px);line-height:1.1}
+.card h3,.ov h3,.card h4,.hcard h4,.subhero .shl{font-family:var(--display);font-weight:600;letter-spacing:0}
+.card h3{font-size:24px;line-height:1.2}.card h4,.hcard h4{font-size:20px;line-height:1.25}.ov h3{font-size:25px;line-height:1.2}
+.art h1{font-size:clamp(34px,4.2vw,54px);line-height:1.08}
+.sh .eye,.eh .hash{letter-spacing:.2em;color:var(--blue)}
+/* destaque principal: fundo claro, título grande em serifa, foto inteira à direita */
+.hero{background:linear-gradient(100deg,#FFFFFF 0%,#F4F8FC 55%,#EAF2F9 100%);height:clamp(560px,74vh,700px)}
+.slide > .ph{left:46%;background:transparent}
+.slide > .ph img{object-position:center 30%}
+.slide > .ph::after{background:linear-gradient(90deg,#F6F9FC 0%,rgba(246,249,252,0) 16%)}
+.slide h1,.slide h2{font-size:clamp(40px,4.6vw,66px);line-height:1.04}
+.slide .txt{max-width:560px}
+.slide p.ld{font-size:clamp(16px,1.2vw,18px);line-height:1.6}
+.hero-ctrl{background:rgba(255,255,255,.82);border-top:1px solid var(--border)}
+/* faixa de vantagens: ícones em círculo azul-claro, sem linhas */
+.trust{background:#fff;border-bottom:0}
+.trust div{border-left:0;padding-block:34px}
+.trust svg{width:56px;height:56px;padding:14px;border-radius:50%;background:var(--blush);color:var(--blue);box-sizing:border-box}
+.trust b{letter-spacing:.04em;text-transform:none;font-size:15px;font-weight:600}
+/* seções: mais respiro, fundo alternado quase branco */
+.sec{padding-block:88px}
+.sec.gray,.edblock:nth-child(even){background:#F8FBFD}
+/* cartões: brancos, sem borda, sombra suave, cantos generosos, foto no topo arredondada */
+.card,.hcard,.box,.pcard,.pn-card,.iv-card,.mu-card a,.card.dado,.explore a{border:0;box-shadow:var(--sombra);border-radius:var(--r);background:#fff}
+.card > .ph{margin:0;border-radius:var(--r) var(--r) 0 0;overflow:hidden}
+.card > .ph img,.hcard img{transition:transform .6s ease}
+@media (hover:hover){.card:not(.static):hover,.hcard:hover,.explore a:hover{transform:translateY(-6px);box-shadow:var(--sombra-hover)}
+  .card:hover > .ph img{transform:scale(1.04)}}
+.ov{border-radius:var(--r);overflow:hidden}
+.ov > .ph::after{background:linear-gradient(180deg,rgba(12,24,38,0) 30%,rgba(12,24,38,.55) 70%,rgba(12,24,38,.85) 100%)}
+/* barra de cada editoria: título em serifa sobre fundo limpo, sem caixa colorida */
+.ehbar{background:none;border:0;border-bottom:1px solid var(--border);border-radius:0;color:var(--text);padding-inline:0;
+  font:500 clamp(30px,2.8vw,40px)/1.1 var(--display);text-transform:none;letter-spacing:0}
+.ehbar .ehtag{color:var(--blue)}
+.eh{border-bottom:0}
+/* etiquetas e botões no azul da marca */
+.tag.solid{background:var(--blush);color:var(--blue)}
+.btn{letter-spacing:.06em;text-transform:none;font-size:14px;font-weight:600}
+.subhero.split,.band{background:linear-gradient(100deg,#FFFFFF 0%,#EEF5FB 100%)}
+.subhero.split > .ph::after{background:linear-gradient(90deg,#F7FAFD 0%,transparent 18%)}
+.band > .ph{border-radius:0 var(--r) var(--r) 0}
+footer{background:#F8FBFD}
 :root{--ed-H:#2D6A9F;--ed-C:#2D6A9F;--ed-O:#2D6A9F;--ed-U:#2D6A9F;--ed-F:#2D6A9F;--ed-B:#2D6A9F;--ed-W:#2D6A9F;--ed-P:#2D6A9F;--ed-R:#2D6A9F;--ed-T:#2D6A9F;--ed-E:#2D6A9F}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--ed-H:#EBA7B8;--ed-C:#E2B07A;--ed-O:#C3A6E0;--ed-U:#E89BC4;--ed-F:#E2BB72;--ed-B:#8CCFC7;--ed-W:#A9C795;--ed-P:#EE9AA4;--ed-R:#8DC3DB;--ed-T:#A9B0F0;--ed-E:#C9BCC0}}
 :root[data-theme="dark"],.dark,.tech{--ed-H:#EBA7B8;--ed-C:#E2B07A;--ed-O:#C3A6E0;--ed-U:#E89BC4;--ed-F:#E2BB72;--ed-B:#8CCFC7;--ed-W:#A9C795;--ed-P:#EE9AA4;--ed-R:#8DC3DB;--ed-T:#A9B0F0;--ed-E:#C9BCC0}
