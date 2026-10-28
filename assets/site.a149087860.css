@@ -1297,6 +1297,22 @@ body{font-family:var(--font);font-weight:400;letter-spacing:.005em}
 .cad .btn{align-self:flex-start}
 .cad-msg{min-height:1.4em;font-weight:600}
 
+/* procedimentos */
+.proc-data{margin-left:auto;font-size:12.5px;color:var(--text-3)}
+.proc h3{font:500 21px/1.25 var(--font)}
+.proc-ev{margin:0;font-size:13px;color:var(--text-2);line-height:1.5}.proc-ev b{font-weight:600;margin-right:4px}
+.atv-ev.alerta{background:#FDF0EE}.atv-ev.alerta b{color:#A2342A}
+.proc-area{margin-top:36px}.proc-area[hidden]{display:none}
+.proc-banner{position:relative;border-radius:20px;overflow:hidden;aspect-ratio:21/5}
+.proc-banner img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.proc-banner::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(9,18,30,.75),rgba(9,18,30,0) 65%)}
+.proc-banner h2{position:absolute;z-index:1;left:24px;bottom:18px;margin:0;color:#fff;display:flex;align-items:center;gap:12px;font:300 34px/1 var(--display)}
+.proc-banner .pn-ic{background:rgba(255,255,255,.16);color:#fff}
+.proc-sec{background:#0F2236;color:#fff}
+.proc-sec .sh .eye{color:#BFD9EF}.proc-sec .sh h2{color:#fff}.proc-sec .sh p{color:rgba(255,255,255,.82)}
+.proc-sec .btn{background:#fff;color:#0F2236}
+@media (max-width:672px){.proc-banner{aspect-ratio:16/8}.proc-banner h2{font-size:26px}}
+
 .pn-banner{min-height:0;aspect-ratio:21/6;align-self:auto}
 .pn-banner span{font-size:16px;left:22px;bottom:18px}
 .pn-reg3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;align-items:stretch}
