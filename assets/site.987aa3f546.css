@@ -1173,6 +1173,8 @@ footer ul a:hover,.legal a:hover{color:var(--link)}
 .subhero.split > .ph::after{background:linear-gradient(90deg,#F7FAFD 0%,transparent 18%)}
 .band > .ph{border-radius:0 var(--r) var(--r) 0}
 footer{background:#F8FBFD}
+/* Cormorant usa algarismos antigos por padrão: força os alinhados em números e indicadores */
+body{font-variant-numeric:lining-nums}
 :root{--ed-H:#2D6A9F;--ed-C:#2D6A9F;--ed-O:#2D6A9F;--ed-U:#2D6A9F;--ed-F:#2D6A9F;--ed-B:#2D6A9F;--ed-W:#2D6A9F;--ed-P:#2D6A9F;--ed-R:#2D6A9F;--ed-T:#2D6A9F;--ed-E:#2D6A9F}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--ed-H:#EBA7B8;--ed-C:#E2B07A;--ed-O:#C3A6E0;--ed-U:#E89BC4;--ed-F:#E2BB72;--ed-B:#8CCFC7;--ed-W:#A9C795;--ed-P:#EE9AA4;--ed-R:#8DC3DB;--ed-T:#A9B0F0;--ed-E:#C9BCC0}}
 :root[data-theme="dark"],.dark,.tech{--ed-H:#EBA7B8;--ed-C:#E2B07A;--ed-O:#C3A6E0;--ed-U:#E89BC4;--ed-F:#E2BB72;--ed-B:#8CCFC7;--ed-W:#A9C795;--ed-P:#EE9AA4;--ed-R:#8DC3DB;--ed-T:#A9B0F0;--ed-E:#C9BCC0}
